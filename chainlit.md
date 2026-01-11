@@ -1,14 +1,16 @@
-# Welcome to Chainlit! 🚀🤖
+# Welcome to Nexus 🛡️
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+### Your Hybrid HR Intelligence Agent
 
-## Useful Links 🔗
+I am an advanced AI assistant designed to bridge the gap between internal documents and real-world information.
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+**I have two modes of operation:**
+1.  📄 **Internal Audit:** I search your secure Telework Policy PDF for rules, agreements, and compliance data.
+2.  🌍 **External Recon:** I search the live web for real-time news, stock market updates, and general knowledge.
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+---
 
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+### **Try asking me:**
+* *"What are the reporting requirements for telework?"* (Internal)
+* *"Who is the current director of OPM?"* (External)
+* *"What is the stock price of Microsoft?"* (External)

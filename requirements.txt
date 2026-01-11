@@ -6,3 +6,4 @@ llama-index-tools-tavily-research
 chainlit
 qdrant-client
 python-dotenv
+pysqlite3-binary
