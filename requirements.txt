@@ -1,0 +1,8 @@
+llama-index
+llama-index-core
+llama-index-llms-groq
+llama-index-embeddings-huggingface
+llama-index-tools-tavily-research
+chainlit
+qdrant-client
+python-dotenv
