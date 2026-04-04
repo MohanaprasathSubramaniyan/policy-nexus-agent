@@ -10,9 +10,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Get full history (it's clean now!)
-      - name: Push to hub
+          fetch-depth: 0
+      - name: Force Push Clean History
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
+          # This part "resets" the history so Hugging Face doesn't see the old large files
+          git update-ref -d HEAD
+          git add .
+          git config --global user.email "you@example.com"
+          git config --global user.name "Mohanaprasath"
+          git commit -m "Initial clean deploy"
           git push --force https://Mohanaprasath:$HF_TOKEN@huggingface.co/spaces/Mohanaprasath/policy-nexus-agent main
