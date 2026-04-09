@@ -1,8 +1,9 @@
-llama-index
-llama-index-core
+llama-index==0.10.30
+llama-index-core==0.10.30
 llama-index-llms-groq
 llama-index-embeddings-huggingface
 llama-index-tools-tavily-research
+huggingface-hub==0.23.2
 chainlit
 qdrant-client
 python-dotenv
