@@ -21,4 +21,4 @@ jobs:
           git config --global user.email "you@example.com"
           git config --global user.name "Mohanaprasath"
           git commit -m "Initial clean deploy"
-          git push --force https://Mohanaprasath:$HF_TOKEN@huggingface.co/spaces/Mohanaprasath/policy-nexus-agent main
+          git push --force https://Mohanaprasath:$HF_TOKEN@huggingface.co/spaces/Mohanaprasath/Nexus main
